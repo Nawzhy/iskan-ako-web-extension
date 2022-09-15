@@ -1,0 +1,22 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background: rgba(226, 138, 138, 0.425);
+}
+.Samp{
+    text-align: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+}
+h1{
+    font-size: 50px;
+    font-family: 'Arial Bold';
+    color: brown;
+}
+a{
+    color: rgb(255, 158, 13);
+    font-size: 30px;
+}

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans' , sans-serif;
+}
+.maincon{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(218, 204, 204, 0.6), rgba(156, 27, 27, 0.6)), url('Images/Background.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+nav img{
+    height: 80px;
+}
+h2{
+    padding-right: 290px;
+    text-align:center;
+    font-size: 24px;
+    font-family: 'Arial Narrow Bold';
+}
+span{
+    font-size: 18px;
+    font-family: 'Segue';
+}
+h2, span{
+    color: #ffffff;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color: rgba(252, 55, 55, 0.616);
+    transition: .3s;
+}
+.container{
+    height: 80vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.caption{
+    position: absolute;
+	width: 200px;
+	height: 20px;
+    padding: 0px;
+    margin-top: 14rem;
+    color: #d3d3d3;
+    margin-right: 10rem;
+    font-size: 25px;
+    font-family: 'Arial';
+}
+.submit-btn {
+    border:3px solid rgba(255, 255, 255, 0.726);
+    background-color:transparent;
+    width: 20%;
+    padding: 10px 8px;
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 10px 100px;
+    border-radius: 20px;
+    position: relative;
+    top: -200px;
+}
+.submit-btn:hover {
+    background-color: rgba(252, 55, 55, 0.616);
+}
+.btnfacu{
+    display: block;
+    margin: auto; 
+    border:3px solid rgba(255, 255, 255, 0.726);
+    background-color:transparent;
+    width: 20%;
+    padding: 10px 8px;
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 20px;
+    position: relative;
+    top: -200px;
+}
+.btnfacu:hover{
+    background-color: rgba(252, 55, 55, 0.616);
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+

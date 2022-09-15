@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In</title>
+    <link rel="stylesheet" href="Faculty-Sign-In.css" />
+    <link rel="shortcut icon"href="Images/Site-Logo.png"/>
+    <script src="https://www.gstatic.com/firebasejs/9.9.4/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.9.4/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.9.4/firebase-auth-compat.js"></script>
+  </head>
+  <body>
+
+    <div class="form">
+      
+      <div class="msg">
+        <h3>Hello! Faculty</h3>
+        <h4>Welcome To PUP Website Attendance Monitoring System</h4>
+      </div>
+       
+        <!-- Email  -->
+      <div class="email">
+        <a href="Home-Page.html" class="bck">&#11176;</a>
+        
+        <h2 class="Sign">Sign In</h2>
+        
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email Address"
+        />
+      </div>
+           
+      <!-- passWord -->
+      <div class="pass">
+        
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Password"
+        />
+      </div>
+
+      <!-- Sign Up button -->
+      <button id="submit-btn" onclick="signIn()">Sign In</button>
+
+    </div>
+
+    <script src="Faculty-Sign-In.js"></script>
+  </body>
+</html>
